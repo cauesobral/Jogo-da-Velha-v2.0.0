@@ -1,28 +1,23 @@
 # Jogo da Velha em C
 
-Um jogo da velha desenvolvido na linguagem C para execução no terminal. O projeto foi criado com o objetivo de praticar conceitos fundamentais de programação estruturada, como funções, vetores, estruturas de decisão e repetição.
+Implementação de um jogo da velha em linguagem C executado no terminal. O programa permite cadastrar os jogadores, realizar as jogadas em um tabuleiro 3×3, validar entradas, identificar automaticamente vitória ou empate e iniciar novas partidas, com a opção de manter os mesmos jogadores.
 
 ## Funcionalidades
 
-* Partida para dois jogadores.
+* Cadastro dos jogadores.
+* Tabuleiro 3×3.
 * Validação das jogadas.
-* Verificação automática de vitória e empate.
-* Interface simples via terminal.
+* Verificação de vitória e empate.
+* Opção de jogar novamente.
 
 ## Tecnologias
 
-* C
+* Linguagem C
+* Biblioteca padrão da linguagem (`stdio.h`, `stdlib.h` e `string.h`)
 
 ## Como executar
 
-1. Compile o código:
-
-   ```bash
-   gcc main.c -o jogo
-   ```
-
-2. Execute o programa:
-
-   ```bash
-   ./jogo
-   ```
+```bash
+gcc main.c -o jogo
+./jogo
+```
